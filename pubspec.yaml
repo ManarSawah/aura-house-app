@@ -1,0 +1,51 @@
+name: aura_house
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-323.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  flutter_svg: ^2.1.0
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  animate_do: ^3.0.2
+  cupertino_icons: ^1.0.8
+  gap: ^3.0.1
+  ionicons: ^0.2.2
+  flutter_credit_card: ^4.1.0
+  rename: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  image_path: "assets/logo/logo_app.png"
+  android: true
+  ios: true
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cover/
+    - assets/logo/
+    - assets/product/
+    - assets/fonts/
+    - assets/svgs/
+    - assets/texts/
+    - assets/pop/
+
+  fonts:
+    - family: TenorSans
+      fonts:
+        - asset: assets/fonts/TenorSans-Regular.ttf
