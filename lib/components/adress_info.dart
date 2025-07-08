@@ -26,6 +26,7 @@ class AdressInfo extends StatelessWidget {
                 color: Color(0xFF1A1A1A),
                 size: 18,
               ),
+              Gap(10),
               CustomText(
                 text: savedAddress['address'] ?? '',
                 color: Color(0xFF555555),
